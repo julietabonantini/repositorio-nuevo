@@ -16,6 +16,15 @@ html {
   background-size: cover;
 }
 
+.navbar {
+  color: white;
+}
+
+.nav-link {
+color: white;
+}
+
+
 header {
   width: 100%;
   height: 10vh;
@@ -42,6 +51,7 @@ header {
 .header__indiceLista li:hover {
   text-shadow: 2px 2px 2px #bfbfbf;
 }
+
 
 body {
   background: linear-gradient(#e5d8ca, white);
@@ -74,8 +84,8 @@ h1:hover {
     to(#ceb0ca)
   );
   background: linear-gradient(#aa6da3, #ceb0ca);
-  background-clip: text;
   color: transparent;
+  -webkit-background-clip: text;
 }
 
 .main__tituloServicios {
@@ -87,7 +97,7 @@ h1:hover {
 
 .main__tituloServicios:hover {
   background: linear-gradient(#aa6da3, #ceb0ca);
-  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -110,7 +120,7 @@ h1:hover {
     to(#ceb0ca)
   );
   background: linear-gradient(#aa6da3, #ceb0ca);
-  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -128,7 +138,7 @@ h1:hover {
     to(#ceb0ca)
   );
   background: linear-gradient(#402c1d, #ceb0ca);
-  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -309,6 +319,10 @@ body ol li {
 
 footer a:hover {
   color: #aa6da3;
+}
+
+.textoFooter{
+  font-size: 1.5rem;
 }
 
 .footerPortfolio {
