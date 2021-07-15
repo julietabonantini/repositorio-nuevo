@@ -272,7 +272,13 @@ section div h1 {
 
 .carousel-inner img {
   width: 100%;
-  max-height: 460px;
+  max-height: 600px;
+  max-width: 800px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .portfolioCarousel {
@@ -476,5 +482,13 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 900px;
   }
 }
