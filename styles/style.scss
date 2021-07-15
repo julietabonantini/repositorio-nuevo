@@ -16,6 +16,11 @@ html {
   background-size: cover;
 }
 
+.main__Home {
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar {
   color: white;
 }
@@ -450,6 +455,40 @@ footer a:hover {
     flex-direction: column;
     justify-content: space-around;
   }
+
+  #tituloHome {
+    font-size: 4rem;
+  }
+
+  .main__parrafo {
+    font-size: 1.6rem;
+  }
+
+  .main__divQuienesSomos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #fotoQuienesSomos {
+    position: relative;
+    top: auto;
+    width: 70%;
+    right: auto;
+  }
+
+  .main__tituloPrincipal {
+    font-size: 4rem;
+  }
+
+  #pquienesSomos {
+    font-size: 1.5rem;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
   .footer__iconosFooter {
     text-decoration: none;
     list-style: none;
