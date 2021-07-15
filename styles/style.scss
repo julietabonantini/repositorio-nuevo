@@ -254,6 +254,7 @@ section div h1 {
   color: $marron;
   font-size: 1.7rem;
   border-color: white;
+  padding: 5px;
 }
 
 .pServicios {
@@ -263,6 +264,13 @@ section div h1 {
 
 .main__tituloTabla {
   color: $marron;
+}
+
+#fotoServicios {
+  position: absolute;
+  top: 180px;
+  width: 40%;
+  right: 50px;
 }
 
 .fotosPortfolio {
@@ -478,6 +486,16 @@ footer a:hover {
     right: auto;
   }
 
+  #fotoServicios {
+    position: relative;
+    top: auto;
+    width: 70%;
+    right: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
   .main__tituloPrincipal {
     font-size: 4rem;
   }
@@ -487,6 +505,16 @@ footer a:hover {
     width: auto;
     margin-left: 50px;
     margin-right: 50px;
+  }
+
+  .main__Contacto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fotoContacto {
+    width: 50%;
+    margin: auto;
   }
 
   .footer__iconosFooter {

@@ -301,6 +301,7 @@ section div h1 {
   color: #402c1d;
   font-size: 1.7rem;
   border-color: white;
+  padding: 5px;
 }
 
 .pServicios {
@@ -310,6 +311,13 @@ section div h1 {
 
 .main__tituloTabla {
   color: #402c1d;
+}
+
+#fotoServicios {
+  position: absolute;
+  top: 180px;
+  width: 40%;
+  right: 50px;
 }
 
 .fotosPortfolio {
@@ -572,6 +580,19 @@ footer a:hover {
     width: 70%;
     right: auto;
   }
+  #fotoServicios {
+    position: relative;
+    top: auto;
+    width: 70%;
+    right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
   .main__tituloPrincipal {
     font-size: 4rem;
   }
@@ -580,6 +601,19 @@ footer a:hover {
     width: auto;
     margin-left: 50px;
     margin-right: 50px;
+  }
+  .main__Contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fotoContacto {
+    width: 50%;
+    margin: auto;
   }
   .footer__iconosFooter {
     text-decoration: none;
