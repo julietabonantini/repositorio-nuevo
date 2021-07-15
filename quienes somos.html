@@ -32,30 +32,50 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="header__indiceLista">
-          <li>
-            <a href="quienes somos.html" class="header__indiceLista"
-              >Quiénes Somos</a
+      <nav class="navbar navbar-expand-lg navbar-light header__indiceLista">
+        <div class="header__indiceLista">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-          </li>
-          <li>
-            <a href="servicios.html" class="header__indiceLista">Servicios</a>
-          </li>
-          <li>
-            <a href="/" class="header__indiceLista"
-              ><img id="logo" src="logogif.gif" alt="logo" width="45%"
-            /></a>
-          </li>
-          <li>
-            <a href="Portfolio.html" class="header__indiceLista">Portfolio</a>
-          </li>
-          <li>
-            <a href="contacto.html" class="header__indiceLista">Contacto</a>
-          </li>
-        </ul>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav header__indiceLista">
+                <a
+                  class="nav-link header__indiceLista"
+                  aria-current="page"
+                  href="/"
+                  >Photopop</a
+                >
+                <a
+                  class="nav-link active header__indiceLista"
+                  aria-current="page"
+                  href="quienes somos.html"
+                  >Quiénes Somos</a
+                >
+                <a class="nav-link header__indiceLista" href="servicios.html"
+                  >Servicios</a
+                >
+                <a class="nav-link header__indiceLista" href="Portfolio.html"
+                  >Portfolio</a
+                >
+                <a class="nav-link header__indiceLista" href="contacto.html"
+                  >Contacto</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
+
     <main>
       <section class="main__divQuienesSomos">
         <div>
@@ -82,7 +102,7 @@
     </main>
     <br />
     <footer class="footer__iconosFooter">
-      <p class="footer__iconosFooter">Seguinos en las redes!</p>
+      <p class="footer__iconosFooter textoFooter">Seguinos en las redes!</p>
       <a href="http://www.instagram.com/" class="footer__iconosFooter"
         ><img
           src="instagram.svg"

@@ -21,15 +21,51 @@ html {
 }
 
 .nav-link {
-color: white;
+  color: white;
 }
-
 
 header {
   width: 100%;
   height: 10vh;
   margin: auto;
   align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Parisienne", cursive;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link:hover {
+  color: $rosa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Parisienne", cursive;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $rosa;
+  text-shadow: 2px 2px 2px #bfbfbf;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .header__indiceLista {
@@ -41,7 +77,6 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   font-family: "Parisienne", cursive;
-  margin-top: 5px;
 }
 
 .header__indiceLista:hover {
@@ -51,7 +86,6 @@ header {
 .header__indiceLista li:hover {
   text-shadow: 2px 2px 2px #bfbfbf;
 }
-
 
 body {
   background: linear-gradient(#e5d8ca, white);
@@ -206,14 +240,24 @@ section div h1 {
   margin-bottom: 0px;
 }
 
-#tablaServicios {
+.tablaServicios {
   border-top-style: dotted;
   border-right-style: dotted;
   border-bottom-style: dotted;
   border-left-style: dotted;
   font-family: "Montserrat", sans-serif;
+  color: $marron;
+  font-size: 1.7rem;
+  border-color: white;
+}
+
+.pServicios {
+  font-size: 1.5rem;
   color: $rosa;
-  font-size: 2rem;
+}
+
+.main__tituloTabla {
+  color: $marron;
 }
 
 .fotosPortfolio {
@@ -221,6 +265,32 @@ section div h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 460px;
+}
+
+.portfolioCarousel {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: $marron;
+}
+
+.carousel-control-prev-icon {
+  filter: invert(100%);
+}
+
+.carousel-control-next-icon {
+  filter: invert(100%);
 }
 
 h2 {
@@ -239,14 +309,14 @@ body ol li {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .main__contenedorContacto {
@@ -255,13 +325,13 @@ body ol li {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .main__formularioContacto {
@@ -272,19 +342,19 @@ body ol li {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-left: 50px;
 }
 
 .fotoContacto {
-  width: 30%;
+  width: 25%;
 }
 
 .boton {
@@ -321,7 +391,7 @@ footer a:hover {
   color: #aa6da3;
 }
 
-.textoFooter{
+.textoFooter {
   font-size: 1.5rem;
 }
 

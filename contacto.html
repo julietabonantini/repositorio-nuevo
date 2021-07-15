@@ -23,14 +23,47 @@
 </head>
 <body>
   <header>
-    <nav>
-        <ul class="header__indiceLista">
-            <li><a href="quienes somos.html" class="header__indiceLista">Quiénes Somos</a></li>
-            <li><a href="servicios.html" class="header__indiceLista">Servicios</a></li>
-            <li><a href="/" class="header__indiceLista"><img id="logo" src="logogif.gif" alt="logo" width="45%"></a></li>
-            <li><a href="Portfolio.html" class="header__indiceLista">Portfolio</a></li>
-            <li><a href="contacto.html" class="header__indiceLista">Contacto</a></li>               
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light header__indiceLista">
+      <div class="header__indiceLista">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav header__indiceLista">
+              <a
+                class="nav-link header__indiceLista"
+                aria-current="page"
+                href="/"
+                >Photopop</a
+              >
+              <a
+                class="nav-link header__indiceLista"
+                aria-current="page"
+                href="quienes somos.html"
+                >Quiénes Somos</a
+              >
+              <a class="nav-link header__indiceLista" href="servicios.html"
+                >Servicios</a
+              >
+              <a class="nav-link header__indiceLista" href="Portfolio.html"
+                >Portfolio</a
+              >
+              <a class="nav-link active header__indiceLista" href="contacto.html"
+                >Contacto</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </nav>
   </header>
 <main>
@@ -53,6 +86,11 @@
             <label for="exampleInputEmail1" class="form-label">Mail</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required
               placeholder="nombre@ejemplo.com.ar">
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Fecha del evento</label>
+            <input type="date" class="form-control" id="exampleInput1">
           </div>
 
           <div class="form-check">
@@ -81,12 +119,12 @@
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
             <br>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" required placeholder="Dejanos tu mensaje..."></textarea>
           </div>
 
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Deseo suscribirme al newsletter</label>
+            <label class="form-check-label" for="exampleCheck1">Deseo recibir novedades</label>
           </div>
 
           <div>
@@ -106,7 +144,7 @@
 
 </main>
     <footer class="footer__iconosFooter">
-        <p class="footer__iconosFooter">Seguinos en las redes!</p>
+        <p class="footer__iconosFooter textoFooter">Seguinos en las redes!</p>
         <a href="http://www.instagram.com/" class="footer__iconosFooter"><img src="instagram.svg" width="7%" class="img-fluid" alt="Responsive image"></a>
         <a href="http://www.facebook.com/" class="footer__iconosFooter"><img src="facebook.svg" width="7%" class="img-fluid" alt="Responsive image"></a>
         <a href="http://www.twitter.com/" class="footer__iconosFooter"><img src="twitter.svg" width="7%" class="img-fluid" alt="Responsive image"></a>
