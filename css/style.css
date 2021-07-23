@@ -121,7 +121,6 @@ header {
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(#e5d8ca), to(white));
   background: linear-gradient(#e5d8ca, white);
-  height: 100vh;
   background-size: 100%;
   font-family: "Montserrat", sans-serif;
   display: -webkit-box;
@@ -133,6 +132,7 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  height: 100vh;
 }
 
 main {
