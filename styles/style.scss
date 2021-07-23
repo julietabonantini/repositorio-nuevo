@@ -7,6 +7,8 @@
 $rosa: #aa6da3;
 $marron: #402c1d;
 
+/*Generales y Home*/
+
 html {
   font-size: 62.5%;
 }
@@ -127,6 +129,55 @@ h1:hover {
   -webkit-background-clip: text;
 }
 
+#tituloHome {
+  color: $marron;
+  margin-left: 50px;
+  margin-top: 15vh;
+}
+#tituloHome:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#aa6da3),
+    to(#ceb0ca)
+  );
+  background: linear-gradient(#402c1d, #ceb0ca);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+/*Página Quienes Somos*/
+.main__divQuienesSomos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#pquienesSomos {
+  font-family: "Montserrat", sans-serif;
+  color: $marron;
+  font-size: 2rem;
+  margin: 20px;
+  display: flex;
+  margin-left: 50px;
+  width: 45%;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+#fotoQuienesSomos {
+  position: absolute;
+  top: 180px;
+  width: 40%;
+  right: 50px;
+}
+
+
+/*Página Servicios*/
 .main__tituloServicios {
   color: $rosa;
   font-size: 6rem;
@@ -163,24 +214,6 @@ h1:hover {
   color: transparent;
 }
 
-#tituloHome {
-  color: $marron;
-  margin-left: 50px;
-  margin-top: 15vh;
-}
-#tituloHome:hover {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#aa6da3),
-    to(#ceb0ca)
-  );
-  background: linear-gradient(#402c1d, #ceb0ca);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 section div h1 {
   color: white;
 }
@@ -195,33 +228,6 @@ section div h1 {
   width: 50%;
   text-align: justify;
   margin-top: 5px;
-}
-
-.main__divQuienesSomos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-#pquienesSomos {
-  font-family: "Montserrat", sans-serif;
-  color: $marron;
-  font-size: 2rem;
-  margin: 20px;
-  display: flex;
-  margin-left: 50px;
-  width: 45%;
-  text-align: justify;
-  margin-top: 5px;
-}
-
-#fotoQuienesSomos {
-  position: absolute;
-  top: 180px;
-  width: 40%;
-  right: 50px;
 }
 
 .main__divServicios {
@@ -273,6 +279,7 @@ section div h1 {
   right: 50px;
 }
 
+/*Página Portfolio*/
 .fotosPortfolio {
   display: flex;
   justify-content: center;
@@ -321,6 +328,8 @@ main section li {
 body ol li {
   color: white;
 }
+
+/*Página Contacto*/
 
 .main__Contacto {
   display: -webkit-box;
@@ -393,6 +402,8 @@ body ol li {
   font-weight: bold;
 }
 
+/*Footers*/
+
 .footer__iconosFooter {
   animation-name: wobble-hor-bottom 0.8s both;
   width: 100%;
@@ -421,6 +432,9 @@ footer a:hover {
   color: $marron;
   margin-top: 100vh;
 }
+
+
+/*Media Queries*/
 
 @media only screen and (max-width: 320px) {
   .header__indiceLista {
