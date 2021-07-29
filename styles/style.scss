@@ -147,7 +147,6 @@ h1:hover {
   color: transparent;
 }
 
-
 /*Página Quienes Somos*/
 .main__divQuienesSomos {
   display: flex;
@@ -175,7 +174,6 @@ h1:hover {
   width: 40%;
   right: 50px;
 }
-
 
 /*Página Servicios*/
 .main__tituloServicios {
@@ -433,6 +431,12 @@ footer a:hover {
   margin-top: 100vh;
 }
 
+#Error {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*Media Queries*/
 
