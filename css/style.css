@@ -535,8 +535,7 @@ body ol li {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   color: #402c1d;
-  margin-bottom: 10vh;
-  position: absolute;
+  margin-bottom: 5px;
 }
 
 .footer__iconosFooterGaleria a:hover {
