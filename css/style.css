@@ -110,6 +110,7 @@ header {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   font-family: "Parisienne", cursive;
+  width: 100%;
 }
 
 .header__indiceLista:hover {
@@ -783,7 +784,7 @@ footer a:hover {
             flex-direction: column;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    background-color: #d6c2b4;
+    background-color: #d8ccbf;
   }
   .footer__iconosFooter {
     text-decoration: none;
