@@ -14,8 +14,20 @@ html {
 }
 
 #bodyIndex {
-  background-image: url("fotofondo3.jpg");
-  background-size: cover;
+  height: 100%;
+}
+
+.videoIndex {
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  top: -150px;
+  right: 0;
+  left: -400px;
 }
 
 .main__Home {
@@ -129,10 +141,24 @@ h1:hover {
   -webkit-background-clip: text;
 }
 
+.main__parrafoHome {
+  font-family: "Montserrat", sans-serif;
+  color: #402c1db3;
+  font-size: 2rem;
+  margin: 20px;
+  display: flex;
+  margin-left: 50px;
+  width: 50%;
+  text-align: justify;
+  margin-top: 5px;
+}
+
 #tituloHome {
-  color: $marron;
   margin-left: 50px;
   margin-top: 15vh;
+  color: #775773;
+  font-size: 6rem;
+  font-family: "Parisienne", cursive;
 }
 #tituloHome:hover {
   background: -webkit-gradient(
@@ -158,7 +184,7 @@ h1:hover {
 
 #pquienesSomos {
   font-family: "Montserrat", sans-serif;
-  color: $marron;
+  color: #402c1db3;
   font-size: 2rem;
   margin: 20px;
   display: flex;
@@ -454,7 +480,6 @@ body ol li {
 
 .footer__iconosFooter a:hover {
   opacity: 50%;
-  transform: scale(1.02);
 }
 
 .footer__iconosFooterGaleria {
@@ -467,7 +492,6 @@ body ol li {
 
 .footer__iconosFooterGaleria a:hover {
   opacity: 50%;
-  transform: scale(1.02);
 }
 
 footer a:hover {
