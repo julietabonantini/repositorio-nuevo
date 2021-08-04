@@ -36,7 +36,7 @@ html {
 }
 
 .navbar {
-  color: white;
+  color: #402c1db3;
 }
 
 .nav-link {
@@ -52,7 +52,7 @@ header {
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: white;
+  color: #402c1db3;
   font-size: 2rem;
   text-decoration: none;
   list-style: none;
@@ -68,7 +68,7 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+  color: #402c1db3;
   font-size: 2rem;
   text-decoration: none;
   list-style: none;
@@ -88,7 +88,7 @@ header {
 }
 
 .header__indiceLista {
-  color: white;
+  color: #402c1db3;
   font-size: 2rem;
   text-decoration: none;
   list-style: none;
@@ -108,8 +108,8 @@ header {
 }
 
 body {
-  background: linear-gradient(#e5d8ca, white);
-  background-size: 100%;
+  background-image: url("fondo3.jpg");
+  background-size: cover;
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
@@ -515,6 +515,7 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30vh;
 }
 
 /*Media Queries*/
@@ -538,6 +539,7 @@ footer a:hover {
     justify-content: center;
     color: #402c1d;
     width: 100%;
+    align-items: center;
   }
   .footer__iconosFooter:hover {
     opacity: 10%;
@@ -551,6 +553,7 @@ footer a:hover {
     justify-content: center;
     color: #402c1d;
     width: 100%;
+    align-items: center;
   }
   .footer__iconosFooterGaleria:hover {
     opacity: 10%;
@@ -634,6 +637,7 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     color: #402c1d;
+    align-items: center;
   }
 
   .footer__iconosFooterGaleria {
@@ -643,6 +647,7 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     color: #402c1d;
+    align-items: center;
   }
 
   div {
@@ -674,6 +679,7 @@ footer a:hover {
     flex-direction: column;
     justify-content: space-around;
     color: #402c1d;
+    align-items: center;
   }
 
   .footer__iconosFooterGaleria {
@@ -683,6 +689,7 @@ footer a:hover {
     flex-direction: column;
     justify-content: space-around;
     color: #402c1d;
+    align-items: center;
   }
 
   .logoFooter {
