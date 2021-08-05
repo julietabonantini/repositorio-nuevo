@@ -220,9 +220,6 @@ h1:hover {
   color: transparent;
 }
 
-#logo {
-  margin-top: 5px;
-}
 .main__tituloPrincipal {
   color: $rosa;
   font-size: 6rem;
@@ -266,46 +263,6 @@ section div h1 {
   align-items: center;
   justify-content: space-evenly;
   height: 100%;
-}
-
-.main__listaServicios li {
-  list-style-type: decimal;
-  font-family: "Montserrat", sans-serif;
-  color: $marron;
-  font-size: 2rem;
-  display: flex;
-  margin-left: 50px;
-  text-align: justify;
-  margin-top: 5px;
-  margin-bottom: 0px;
-}
-
-.tablaServicios {
-  border-top-style: dotted;
-  border-right-style: dotted;
-  border-bottom-style: dotted;
-  border-left-style: dotted;
-  font-family: "Montserrat", sans-serif;
-  color: $marron;
-  font-size: 1.7rem;
-  border-color: white;
-  padding: 5px;
-}
-
-.pServicios {
-  font-size: 1.5rem;
-  color: $rosa;
-}
-
-.main__tituloTabla {
-  color: $marron;
-}
-
-#fotoServicios {
-  position: absolute;
-  top: 180px;
-  width: 40%;
-  right: 50px;
 }
 
 /*Página Portfolio*/
@@ -358,7 +315,6 @@ body ol li {
   color: white;
 }
 
-/*Galeria*/
 .Galeria {
   height: 50%;
 }
@@ -511,6 +467,8 @@ footer a:hover {
   color: $marron;
   margin-top: 100vh;
 }
+
+/*Página Error 404*/
 
 #Error {
   font-size: 2rem;
