@@ -364,7 +364,9 @@ body ol li {
 }
 
 .gallery-block.grid-gallery {
-  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
 }
 
 .gallery-block.grid-gallery .heading {
